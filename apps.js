@@ -26,10 +26,20 @@ scissors.addEventListener("click", function(){
     function game(playerSelection){
  
       const computerSelection = getComputerChoice(3);
-      alert("You went with: " + playerSelection + " and the computer went with: " + computerSelection)
+      //alert("You went with: " + playerSelection + " and the computer went with: " + computerSelection);
+      let playerSelectionFE = document.getElementById("playerSelection")
+      playerSelectionFE.innerHTML= "Your selected: " + playerSelection;
+      let computerSelectionFE = document.getElementById("computerSelection")
+      computerSelectionFE.innerHTML= "Computer selected: " + computerSelection;
+        // sleep(2000);
       playRound(playerSelection, computerSelection);
+      let playerElement = document.getElementById("playerScore")
+      playerElement.innerHTML= "You: " + playerScore;
+      let computerElement = document.getElementById("computerScore")
+      computerElement.innerHTML= "Computer: " + computerScore;
+    //   alert("Computer Score: " + computerScore);
      
-      alert("Player Score " + playerScore + " Computer Score " + computerScore);
+     
       console.log("Computer Score " + computerScore)
       
       

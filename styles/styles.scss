@@ -26,6 +26,7 @@ h1{
     display: flex;
     justify-content: center;
     border-bottom:1px #ccc solid;
+    padding-bottom: 25px;
 }
 
 .Instructions{
@@ -46,6 +47,10 @@ h1{
         margin: 10px;
         border: 3px solid #fff;
         border-radius: 50%;
+    }
+    .button:hover{
+        transform: scale(1.25);
+        background-color: var(--color-secondary);
     }
     i{
         display: flex;
@@ -94,7 +99,9 @@ h1{
     flex-direction: column;
     border: 1px #ccc solid;
     border-radius: 15px;
-    margin: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: var(--color-secondary);
     .scores{
         display: flex;
         flex-direction: row;
@@ -115,6 +122,7 @@ h1{
     align-items: center;
     border-bottom: 1px #ccc solid;
     border-radius: 15px;
+    margin-top: 5px;
 }
 .scoreBoardContainer p{
     display: flex;
@@ -152,4 +160,8 @@ h1{
     align-items: center;
     background-color: var(--color-grey-5);
     font-size: 40px;
+}
+a{
+    color: var(--color-white);
+    font-size: 10px;
 }

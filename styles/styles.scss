@@ -168,15 +168,24 @@ a{
     font-size: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 715px) {
+    .scoreBoardContainer{
+        background-color: var(--color-grey-5);
+        border:none;
+    }
     .scoreBoardContainer .scores{
         
         flex-direction: column;
         
     }
     .scoreBoardContainer p{
-        justify-content: right;
+        justify-content: center;
+        font-size: 20px;
         
+    }
+    .flex-box-container{
+        flex-direction: column;
+        align-items: center;
     }
 }
 

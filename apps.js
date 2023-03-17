@@ -72,6 +72,7 @@ scissors.addEventListener("click", function(){
         playRound(playerSelection, computerSelection);
         let playerElement = document.getElementById("playerScore")
         playerElement.innerHTML= "You: " + playerScore;
+        console.log("Player score: " + playerScore)
         let computerElement = document.getElementById("computerScore")
         computerElement.innerHTML= "Computer: " + computerScore;
         console.log("Computer Score " + computerScore)

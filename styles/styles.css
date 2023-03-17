@@ -75,5 +75,63 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.scoreBoardContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px #ccc solid;
+  border-radius: 15px;
+  margin: 100px;
+}
+.scoreBoardContainer .scores {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 0px;
+  justify-content: space-evenly;
+}
+
+.scoreBoardContainer h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   border-bottom: 1px #ccc solid;
+  border-radius: 15px;
+}
+
+.scoreBoardContainer p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 10 px;
+  font-size: 30px;
+}
+
+#indexBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--color-white);
+  align-items: center;
+  background-color: var(--color-grey-5);
+}
+
+#prs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#indexBody a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--color-white);
+  align-items: center;
+  background-color: var(--color-grey-5);
+  font-size: 40px;
 }/*# sourceMappingURL=styles.css.map */

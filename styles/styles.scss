@@ -19,6 +19,7 @@ body {
     font-size: 1.1rem;
     color: var(--color-white);
     transition: all .4s ease-in-out;
+   
 }
 
 h1{
@@ -85,5 +86,70 @@ h1{
     // font-size: 100px;
     justify-content:center;
     align-items:center;
+    //border-bottom: 1px #ccc solid;
+}
+
+.scoreBoardContainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px #ccc solid;
+    border-radius: 15px;
+    margin: 100px;
+    .scores{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        //padding: 15px;
+        //margin: 15px;
+        padding-top: 0px;
+        justify-content: space-evenly;
+    }
+   
+}
+
+
+.scoreBoardContainer h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     border-bottom: 1px #ccc solid;
+    border-radius: 15px;
+}
+.scoreBoardContainer p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    //border: 1px #ccc solid;
+    //border-radius: 15px;
+    padding: 5px;
+    margin: 10 px;
+    font-size: 30px;
+    
+}
+
+#indexBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--color-white);
+    align-items: center;
+    background-color: var(--color-grey-5);
+}
+
+#prs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#indexBody a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--color-white);
+    align-items: center;
+    background-color: var(--color-grey-5);
+    font-size: 40px;
 }

@@ -126,6 +126,7 @@ h1 {
   color: var(--color-white);
   align-items: center;
   background-color: var(--color-grey-5);
+  padding-top: 10%;
 }
 
 #prs {

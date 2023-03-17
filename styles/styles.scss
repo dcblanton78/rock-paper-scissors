@@ -150,6 +150,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: auto;
 }
 
 #indexBody a{
@@ -165,3 +167,16 @@ a{
     color: var(--color-white);
     font-size: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .scoreBoardContainer .scores{
+        
+        flex-direction: column;
+        
+    }
+    .scoreBoardContainer p{
+        justify-content: right;
+        
+    }
+}
+
